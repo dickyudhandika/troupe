@@ -363,6 +363,7 @@ export function ChatInputBar({
     onSetMode,
     onSetModel,
     mentions,
+    projectId: session.projectId,
     scheduleRestoreCaret
   })
   const slashOpen = composerSlashOpen && !sending
